@@ -1,0 +1,30 @@
+/*
+Theme Name:     Hultsfreds Tillgänglinghetsguide (Twenty Eleven Child)
+Theme URI:      http: //example.com/
+Description:    Child theme for the Twenty Eleven theme 
+Author:         Jonas Hjalmarsson
+Author URI:     
+Template:       twentyeleven
+Version:        0.1.0
+*/
+@import url("../twentyeleven/style.css");
+.page-title {
+    color: #333;
+}
+
+.entry-header .edit-link {
+    float:left;
+
+}
+.entry-header .edit-link a {
+	background: #eee;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #000000;
+	float: right;
+	font-size: 12px;
+	line-height: 1.5em;
+	font-weight: 300;
+	text-decoration: none;
+	padding: 0 8px;
+}
